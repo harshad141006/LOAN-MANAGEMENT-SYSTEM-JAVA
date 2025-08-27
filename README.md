@@ -3,13 +3,13 @@ Project title:Loan Management System is a simple but practical Java console-base
 
 ---
 
-💰 Loan Management System (Console-Based)
+** Loan Management System (Console-Based)
 
-🎯 Objective:
+ Objective:
 
 To manage loan records of customers, including loan details, payments, and balances.
 
-📌 Features (basic level):
+** Features (basic level):
 
 1. Add Customer Loan → Enter details (Loan ID, Customer Name, Loan Amount, Interest Rate, Duration).
 
@@ -44,7 +44,7 @@ N = Number of Months
 
 ---
 
-🏗 Project Structure:
+** Project Structure:
 
 Entity Classes:
 
