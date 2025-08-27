@@ -3,8 +3,7 @@ Project title:Loan Management System .
 
 ---
 
-** Loan Management System (Console-Based)
-
+** Loan Management System 
  Objective:
 
 To manage loan records of customers, including loan details, payments, and balances.
