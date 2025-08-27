@@ -8,7 +8,7 @@ Project title:Loan Management System .
 
 To manage loan records of customers, including loan details, payments, and balances.
 
-** Features (basic level):
+** Features :
 
 1. Add Customer Loan → Enter details (Loan ID, Customer Name, Loan Amount, Interest Rate, Duration).
 
