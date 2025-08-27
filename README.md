@@ -69,11 +69,11 @@ Menu-driven console program (switch case).
 
 ✅ Why this project is good:
 
-Easy to explain (everyone understands loans).
+Easy to explain so everyone understands loans and they get some ideas.
 
 Teaches you OOP, arrays/lists, file handling, and simple math (EMI formula).
 
-More impressive than Student/Library projects because it looks real-world.
+In a way earning is important , but at the same time money managing is also important . We need to understand the money flow to manage .
 
 
 
