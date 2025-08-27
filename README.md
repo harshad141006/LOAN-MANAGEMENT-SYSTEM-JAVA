@@ -1,4 +1,4 @@
-Project title:Loan Management System is a simple but practical Java console-based project.
+Project title:Loan Management System .
 
 
 ---
