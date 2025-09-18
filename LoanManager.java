@@ -15,7 +15,6 @@ public class LoanManager {
         loans.put(loan.loanId, loan);
         save();
     }
-
     public Collection<Loan> listLoans() {
         return loans.values();
     }
