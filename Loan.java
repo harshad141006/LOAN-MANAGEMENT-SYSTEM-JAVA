@@ -16,9 +16,6 @@ public class Loan {
         this.annualRate = annualRate;
         this.termMonths = termMonths;
         this.startDate = startDate;
-
-
-        
         this.status = status;
     }
     public static Loan fromCSV(String csvLine) {
