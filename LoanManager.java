@@ -1,20 +1,4 @@
-/**
- * LoanManager is responsible for managing Loan objects, including adding, updating,
- * deleting, listing, saving, and loading loans from persistent storage (CSV file).
- * <p>
- * Loans are stored in a LinkedHashMap for predictable iteration order and are
- * persisted in a CSV file named "loans.csv".
- * </p>
 
- * Usage:
- * <pre>
- *     LoanManager manager = new LoanManager();
- *     manager.addLoan(new Loan(...));
- *     Collection&lt;Loan&gt; allLoans = manager.listLoans();
- * </pre>
- *
- * Note: This class expects the Loan class to provide toCSV() and fromCSV(String) methods.
- */
 import java.io.*;
 import java.nio.file.*;
 import java.util.*;
