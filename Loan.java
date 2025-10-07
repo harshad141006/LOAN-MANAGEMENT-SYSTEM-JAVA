@@ -9,6 +9,9 @@ public class Loan {
     public int termMonths;
     public LocalDate startDate;
     public String status;
+    private int cibilScore = 750; 
+
+
     public Loan(String loanId, String customerName, double principal, double annualRate, int termMonths, LocalDate startDate, String status) {
         this.loanId = loanId;
         this.customerName = customerName;
@@ -55,5 +58,13 @@ public class Loan {
     public String toString() {
         return String.format("ID: %s | Customer: %s | Principal: %.2f | Rate: %.2f%% | Term: %d mo | Start: %s | Status: %s | EMI: %.2f",
             loanId, customerName, principal, annualRate, termMonths, startDate.format(DF), status, monthlyPayment());
+    }
+
+    public int getCibilScore() { 
+        return cibilScore; 
+    }
+
+    public void setCibilScore(int score) { 
+        this.cibilScore = score; 
     }
 }

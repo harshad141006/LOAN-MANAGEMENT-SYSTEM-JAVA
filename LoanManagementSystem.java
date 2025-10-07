@@ -140,4 +140,16 @@ public class LoanManagementSystem {
         try { return LocalDate.parse(s); }
         catch (Exception e) { System.out.println("Bad date format. Use YYYY-MM-DD."); return readDate(prompt); }
     }
+
+    public boolean updateStatus(String loanId, String newStatus) {
+        Loan loan = find(loanId);
+        if (loan == null) return false;
+        loan.setStatus(newStatus);
+        if (newStatus.equals("CLOSED")) {
+            loan.setCibilScore(Math.min(900, loan.getCibilScore() + 20));
+        } else if (newStatus.equals("DEFAULTED")) {
+            loan.setCibilScore(Math.max(300, loan.getCibilScore() - 50));
+        }
+        return true;
+    }
 }
