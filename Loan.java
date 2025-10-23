@@ -9,7 +9,7 @@ public class Loan {
     public int termMonths;
     public LocalDate startDate;
     public String status;
-    private int cibilScore = 750; 
+    private int cibilScore = 750;       
 
 
     public Loan(String loanId, String customerName, double principal, double annualRate, int termMonths, LocalDate startDate, String status) {
