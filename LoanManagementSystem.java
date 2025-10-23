@@ -16,10 +16,10 @@ public class LoanManagementSystem {
                 case "1": createLoan(); break;
                 case "2": listLoans(); break;
                 case "3": searchLoan(); break;
-                case "4": updateStatus(); break;
+                case "4": updateStatus(); break;    
                 case "5": deleteLoan(); break;
                 case "6": exportReport(); break;
-                case "0":
+                case "0":  
                     System.out.println("Goodbye.");
                     break loop;
                 default:
